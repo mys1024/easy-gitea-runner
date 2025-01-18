@@ -4,11 +4,11 @@ Easily startup an [**Act Runner**](https://docs.gitea.ac.cn/usage/actions/act-ru
 
 ## Usage
 
-1. Create an `.env` file with your custom configurations:
+1. Create a file named `.env` with your custom configurations:
 
     ```sh
-    GITEA_INSTANCE_URL=YOUR_URL
-    GITEA_RUNNER_REGISTRATION_TOKEN=YOUR_TOKEN
+    GITEA_INSTANCE_URL=YOUR_URL # required
+    GITEA_RUNNER_REGISTRATION_TOKEN=YOUR_TOKEN # required
     ```
 
 2. Generate a configuration file for the runner:
