@@ -17,7 +17,7 @@ Easily startup an [**Act Runner**](https://docs.gitea.ac.cn/usage/actions/act-ru
     mkdir -p volumes && docker run --entrypoint="" --rm -it docker.io/gitea/act_runner:nightly-dind act_runner generate-config > volumes/config.yaml
     ```
 
-3. Startup:
+3. Start:
 
     ```sh
     docker-compose up -d
