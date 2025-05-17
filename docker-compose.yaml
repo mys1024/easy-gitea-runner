@@ -6,6 +6,8 @@ services:
     volumes:
       - ./volumes/config.yaml:/config.yaml
       - ./volumes/data:/data
+      - ./volumes/docker/data:/var/lib/docker
+      - ./volumes/docker/sock:/var/run
     environment:
       CONFIG_FILE: /config.yaml
       GITEA_INSTANCE_URL: ${GITEA_INSTANCE_URL}
