@@ -1,6 +1,6 @@
 # easy-gitea-runner
 
-Easily startup an [**Act Runner**](https://docs.gitea.ac.cn/usage/actions/act-runner) container for [**Gitea**](https://about.gitea.com) with [**Docker Compose**](https://docs.docker.com/compose/).
+Easily start an [**Act Runner**](https://docs.gitea.ac.cn/usage/actions/act-runner) container for [**Gitea**](https://about.gitea.com) with [**Docker Compose**](https://docs.docker.com/compose/).
 
 ## Usage
 
