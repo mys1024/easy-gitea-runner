@@ -14,7 +14,7 @@ Easily start an [**Act Runner**](https://docs.gitea.ac.cn/usage/actions/act-runn
 2. Generate a configuration file for the runner:
 
     ```sh
-    mkdir -p volumes && docker run --entrypoint="" --rm -it docker.io/gitea/act_runner:nightly-dind act_runner generate-config > volumes/config.yaml
+    mkdir -p volumes/runner && docker run --entrypoint="" --rm -it docker.io/gitea/act_runner:nightly-dind act_runner generate-config > volumes/runner/config.yaml
     ```
 
 3. Start:
