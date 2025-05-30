@@ -4,10 +4,10 @@ services:
     privileged: true
     restart: always
     volumes:
-      - ./volumes/config.yaml:/config.yaml
-      - ./volumes/data:/data
+      - ./volumes/runner/config.yaml:/config.yaml
+      - ./volumes/runner/data:/data
       - ./volumes/docker/data:/var/lib/docker
-      - ./volumes/docker/sock:/var/run
+      - ./volumes/docker/run:/var/run
     environment:
       CONFIG_FILE: /config.yaml
       GITEA_INSTANCE_URL: ${GITEA_INSTANCE_URL}
