@@ -6,7 +6,7 @@ services:
     volumes:
       - ./volumes/runner/config.yaml:/config.yaml
       - ./volumes/runner/data:/data
-      - ./volumes/docker/data:/var/lib/docker
+      - ./volumes/runner/actcache:/root/.cache/actcache
       - ./volumes/docker/run:/var/run
     environment:
       CONFIG_FILE: /config.yaml
